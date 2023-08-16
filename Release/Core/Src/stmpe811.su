@@ -1,0 +1,5 @@
+../Core/Src/stmpe811.c:19:6:stmpe811_init	48	static
+../Core/Src/stmpe811.c:68:9:stmpe811_read	48	static
+../Core/Src/stmpe811.c:100:6:stmpe811_Test	120	static
+../Core/Src/stmpe811.c:174:6:ILI9341_font	0	static
+../Core/Src/stmpe811.c:243:6:ILI9341_str	0	static

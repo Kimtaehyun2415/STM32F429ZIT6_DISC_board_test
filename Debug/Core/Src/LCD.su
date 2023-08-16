@@ -1,0 +1,11 @@
+../Core/Src/LCD.c:33:6:ili9341_Init	8	static
+../Core/Src/LCD.c:156:10:ili9341_ReadID	8	static
+../Core/Src/LCD.c:161:6:ili9341_DisplayOn	8	static
+../Core/Src/LCD.c:172:6:ili9341_DisplayOff	8	static
+../Core/Src/LCD.c:178:6:spi_write	24	static
+../Core/Src/LCD.c:188:10:spi_read	24	static
+../Core/Src/LCD.c:201:6:ili9341_WriteReg	16	static
+../Core/Src/LCD.c:216:6:ili9341_WriteData	16	static
+../Core/Src/LCD.c:229:10:ili9341_ReadData	24	static
+../Core/Src/LCD.c:248:10:ili9341_GetLcdPixelWidth	4	static
+../Core/Src/LCD.c:259:10:ili9341_GetLcdPixelHeight	4	static

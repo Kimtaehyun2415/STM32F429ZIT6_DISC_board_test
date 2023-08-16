@@ -1,0 +1,4 @@
+l3gd20.c:26:6:l3gd20Init	1
+l3gd20.c:35:6:l3gd20_Start	1
+l3gd20.c:108:9:ReadReg0	1
+l3gd20.c:113:5:whoIam	1

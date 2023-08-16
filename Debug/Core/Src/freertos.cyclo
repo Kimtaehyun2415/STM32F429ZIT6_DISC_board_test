@@ -1,0 +1,7 @@
+freertos.c:82:6:vApplicationGetIdleTaskMemory	1
+freertos.c:96:6:MX_FREERTOS_Init	1
+freertos.c:156:6:StartDefaultTask	1
+freertos.c:178:6:StartTask02	1
+freertos.c:200:6:StartTask03	1
+freertos.c:219:6:SemaphoreTask	1
+freertos.c:238:6:SemaTask	3

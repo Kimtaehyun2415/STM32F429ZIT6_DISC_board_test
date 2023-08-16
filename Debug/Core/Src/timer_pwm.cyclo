@@ -1,0 +1,2 @@
+timer_pwm.c:18:6:pwm_duty_control	2
+timer_pwm.c:37:6:pwm_DMA	1
