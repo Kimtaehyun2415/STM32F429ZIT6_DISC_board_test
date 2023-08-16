@@ -7,11 +7,11 @@ STM32F429ZIT6_DISC_board_test
    > Task 2 : l3gd20 Test
    > Task 3 : PWM_duty_control
    > Task 4(hSemTask) : name Error, no Semaphore Task , stmpe811 test (normal task)
-   > SemaTask : semaphore Task, push button -> LED ON/OFF
+   > SemaTask : semaphore Task, User push button -> LED ON/OFF
    
  - Touch Sensor (I2C) : stmpe811
  - Gyro Sensor (SPI) : l3gd20
  - TIM, PWM Duty period change check
  - Polling ADC(no DMA, no interrupt)
  - data check, transmit polling UART
- - only dev-board test STM32F429ZIT6 DISC Board
+ - only dev-board test STM32F429ZIT6 DISC
