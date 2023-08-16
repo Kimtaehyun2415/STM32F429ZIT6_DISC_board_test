@@ -22,7 +22,6 @@
 #include "adc.h"
 #include "can.h"
 #include "i2c.h"
-#include "ltdc.h"
 #include "spi.h"
 #include "tim.h"
 #include "usart.h"
@@ -35,7 +34,6 @@
 #include "string.h"
 #include "stdlib.h"
 #include "l3gd20.h"
-#include "LCD.h"
 #include "st_logo1.h"
 #include "st_logo2.h"
 #include "stmpe811.h"
@@ -45,7 +43,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-extern LCD_DrvTypeDef   ili9341_drv;
+
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -118,7 +116,6 @@ int main(void)
   MX_USART1_UART_Init();
   MX_SPI5_Init();
   MX_I2C3_Init();
-  MX_LTDC_Init();
   MX_TIM1_Init();
   MX_TIM10_Init();
   MX_TIM7_Init();
@@ -135,10 +132,10 @@ int main(void)
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in freertos.c) */
-  MX_FREERTOS_Init();  // Free RTOS INIT
+  MX_FREERTOS_Init();
 
   /* Start scheduler */
-  osKernelStart();  // Free RTOS Enable
+  osKernelStart();
   /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */

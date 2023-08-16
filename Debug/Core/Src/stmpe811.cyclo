@@ -1,5 +1,4 @@
-stmpe811.c:19:6:stmpe811_init	1
-stmpe811.c:68:9:stmpe811_read	2
-stmpe811.c:100:6:stmpe811_Test	1
-stmpe811.c:174:6:ILI9341_font	9
-stmpe811.c:243:6:ILI9341_str	5
+stmpe811.c:12:6:stmpe811_init	1
+stmpe811.c:34:9:stmpe811_read	2
+stmpe811.c:64:6:stmpe811_Test	1
+stmpe811.c:79:6:stmpe811_write	3

@@ -1,5 +1,4 @@
-../Core/Src/stmpe811.c:19:6:stmpe811_init	24	static
-../Core/Src/stmpe811.c:68:9:stmpe811_read	32	static
-../Core/Src/stmpe811.c:100:6:stmpe811_Test	112	static
-../Core/Src/stmpe811.c:174:6:ILI9341_font	32	static
-../Core/Src/stmpe811.c:243:6:ILI9341_str	48	static
+../Core/Src/stmpe811.c:12:6:stmpe811_init	8	static
+../Core/Src/stmpe811.c:34:9:stmpe811_read	32	static
+../Core/Src/stmpe811.c:64:6:stmpe811_Test	112	static
+../Core/Src/stmpe811.c:79:6:stmpe811_write	32	static

@@ -113,7 +113,7 @@ void MX_CAN2_Init(void)
 //  can2FilterConfig.FilterScale = CAN_FILTERSCALE_16BIT;
 //  can2FilterConfig.FilterIdHigh = 0x0000;
 //  can2FilterConfig.FilterIdLow = 0x0000;
-//  can2FilterConfig.FilterMaskIdHigh = 0x0000;              // 0x00000000 = 모든 ID�?? 받아?��?��겠다
+//  can2FilterConfig.FilterMaskIdHigh = 0x0000;              // 0x00000000 = 모든 ID�??? 받아?��?��겠다
 //  can2FilterConfig.FilterMaskIdLow = 0x0000;
 //  can2FilterConfig.FilterFIFOAssignment = CAN_RX_FIFO0;
 //  can2FilterConfig.FilterActivation = ENABLE;
