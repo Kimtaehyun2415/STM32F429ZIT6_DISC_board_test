@@ -6,7 +6,7 @@ STM32F429ZIT6_DISC_board_test
    - Task 1 : ADC Test, Can Test(MCP2551)
    - Task 2 : l3gd20 Test
    - Task 3 : PWM_duty_control
-   - Task 4(hSemTask) : name Error, no Semaphore Task , stmpe811 test (normal task)
+   - Task 4 : name Error(hSemTask), no Semaphore Task , stmpe811 test (normal task)
    - SemaTask : semaphore Task, User push button -> LED ON/OFF
    
  - Touch Sensor (I2C) : stmpe811
